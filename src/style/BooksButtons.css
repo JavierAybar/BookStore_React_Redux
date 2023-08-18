@@ -1,0 +1,11 @@
+.act__btn {
+  height: 1.188rem;
+  margin: 0.188rem 0.938rem 0 0;
+  font-family: RobotoSlab, sans-serif;
+  font-size: 0.875rem;
+  font-stretch: normal;
+  border: none;
+  background: none;
+  color: #4386bf;
+  cursor: pointer;
+}
