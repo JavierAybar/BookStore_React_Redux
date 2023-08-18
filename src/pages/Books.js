@@ -1,15 +1,11 @@
-import Book from '../components/Book';
+import BookList from '../components/BookList';
 import AddBook from '../components/AddBook';
 import '../style/Books.css';
 
 function Books() {
   return (
     <div>
-      <div className="books">
-        <Book />
-        <Book />
-        <Book />
-      </div>
+      <BookList />
       <AddBook />
     </div>
   );
