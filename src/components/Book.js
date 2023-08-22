@@ -4,7 +4,11 @@ import BooksButtons from './BookButtons';
 import ProgressContainer from './ProgressContainer';
 import '../style/BookList.css';
 
-function Book({ category, title, author }) {
+function Book({
+  category,
+  title,
+  author,
+}) {
   return (
     <div className="book">
       <div className="book__info">

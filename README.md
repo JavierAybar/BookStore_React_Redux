@@ -33,7 +33,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Math Magicians] <a name="about-project"></a>
+# 📖 [BookStore] <a name="about-project"></a>
 
 
 **Book Store** is a simple web application that allows users to manage their book collection. Users can add books to the collection by providing the title and author information. They can also remove books from the collection. The application dynamically updates the list of books displayed on the page, allowing users to easily view and interact with their collection.
@@ -65,12 +65,12 @@
 
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- (url)## 🚀 Live Demo <a name="live-demo"></a>
 
 
 - [Live Demo Link]()
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> 
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 <!-- GETTING STARTED -->
