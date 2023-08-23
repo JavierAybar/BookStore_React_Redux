@@ -44,7 +44,7 @@
   color: #c4c4c4;
 }
 
-.addBook__select {
+.addBook__author {
   width: 19.813rem;
   height: 2.813rem;
   margin: 1.188rem 2.125rem 0;
@@ -52,7 +52,6 @@
   border-radius: 4px;
   border: solid 1px #e8e8e8;
   background-color: #fff;
-  cursor: pointer;
 }
 
 .addBook__btn {

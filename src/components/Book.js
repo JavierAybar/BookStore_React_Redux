@@ -8,6 +8,8 @@ function Book({
   category,
   title,
   author,
+  // eslint-disable-next-line react/prop-types
+  id,
 }) {
   return (
     <div className="book">
@@ -15,7 +17,7 @@ function Book({
         <h4 className="book__category">{category}</h4>
         <h2 className="book__title">{title}</h2>
         <h6 className="book__author">{author}</h6>
-        <BooksButtons />
+        <BooksButtons id={id} />
       </div>
       <ProgressContainer />
     </div>
