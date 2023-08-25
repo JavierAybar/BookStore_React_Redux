@@ -1,6 +1,8 @@
+import '../style/Categories.css';
+
 function Categories() {
   return (
-    <div>Categories</div>
+    <div className="under_construction">🚧 Under construction... 🚧</div>
   );
 }
 

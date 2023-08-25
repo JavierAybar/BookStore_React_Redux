@@ -87,3 +87,8 @@
   color: #fff;
   cursor: pointer;
 }
+
+.update__btn:hover {
+  background-color: #3153ec;
+  border: #2f38bd 1px solid;
+}
