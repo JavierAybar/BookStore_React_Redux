@@ -2,7 +2,7 @@ import { useDispatch } from 'react-redux';
 import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import '../style/AddBook.css';
-import { addBook } from '../redux/books/booksSlice';
+import { createNewBook } from '../redux/books/booksSlice';
 import Selected from './Selected';
 
 function AddBook() {
@@ -14,12 +14,13 @@ function AddBook() {
   const handleAddBook = () => {
     if (title !== '' && author !== '' && category !== '') {
       const id = uuidv4();
-      dispatch(addBook({
-        id,
+      const data = {
+        item_id: id,
         title,
         author,
         category,
-      }));
+      };
+      dispatch(createNewBook(data));
       setTitle('');
       setAuthor('');
       setCategory('');
