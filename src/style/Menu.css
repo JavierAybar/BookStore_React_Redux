@@ -1,7 +1,7 @@
 .menu__container {
   display: flex;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 50px;
   width: 100.5rem;
   height: 5.938rem;
   padding: 1.438rem 6.188rem 1.688rem 6.25rem;
@@ -12,7 +12,7 @@
 .menu__title {
   width: 15rem;
   height: 2.313rem;
-  margin: 0.375rem 2.938rem 0.125rem 0;
+  margin: 0 2.938rem 0.125rem 0;
   font-family: Montserrat, sans-serif;
   font-size: 1.875rem;
   font-weight: bold;
@@ -42,6 +42,8 @@
   color: #121212;
   cursor: pointer;
   transition: transform 0.3s ease;
+  list-style: none;
+  text-decoration: none;
 }
 
 .hover__link {
@@ -85,4 +87,15 @@
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+}
+
+.oval {
+  cursor: pointer;
+  width: 2.813rem;
+  height: 2.813rem;
+  border-radius: 50%;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+  padding: 7px;
+  margin-left: auto;
 }

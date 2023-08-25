@@ -2,10 +2,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 90%;
   border: 1px solid #e8e8e8;
   background-color: #fff;
+  width: 87.3%;
   height: 162px;
+  margin-left: 3.25rem;
+  margin-right: 3.25rem;
+}
+
+.book:hover {
+  border: 1px solid #0290ff;
 }
 
 .book__info {

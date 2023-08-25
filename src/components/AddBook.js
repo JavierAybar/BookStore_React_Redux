@@ -36,7 +36,7 @@ function AddBook() {
       <h2 className="addBook__title">ADD NEW BOOK</h2>
       <div className="container__inputs">
         <input className="addBook__input" type="text" placeholder="Book Title" value={title} onChange={(e) => setTitle(e.target.value)} />
-        <input className="addBook__author" type="text" placeholder="Book Author" value={author} onChange={(e) => setAuthor(e.target.value)} />
+        <input className="addBook__input" type="text" placeholder="Book Author" value={author} onChange={(e) => setAuthor(e.target.value)} />
         <Selected selectValue={category} onChangeCategory={handleChangeCategory} />
         <button className="addBook__btn" type="submit" onClick={handleAddBook}>ADD BOOK</button>
       </div>

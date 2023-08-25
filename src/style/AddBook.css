@@ -1,60 +1,51 @@
 .addBook__Container {
-  width: 100.5rem;
+  width: 100%;
   min-height: 5rem;
   padding-left: 45px;
   border-radius: 4px;
   background-color: #fafafa;
   border: 1px solid #e8e8e8;
-  padding-top: 30px;
-  padding-bottom: 50px;
+  padding-top: 20px;
   margin-bottom: 50px;
+  padding-bottom: 150px;
 }
 
 .addBook__title {
-  width: 10.875rem;
+  width: 16.875rem;
   height: 1.5rem;
-  font-family: Montserrat, sans-serif;
+  margin: 0.5rem 10.75rem 0 0;
   font-size: 1.25rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
+  margin-left: 3.5rem;
   letter-spacing: -0.18px;
   color: #888;
 }
 
 .container__inputs {
   display: flex;
+  gap: 10px;
+  margin-left: 3.5rem;
 }
 
 .addBook__input {
-  width: 41.5rem;
+  width: 28.813rem;
   height: 2.813rem;
-  margin: 1.188rem 2.125rem 0 0;
-  padding: 0.813rem 35.688rem 0.813rem 1.063rem;
-  border-radius: 4px;
-  border: solid 1px #e8e8e8;
-  background-color: #fff;
-  font-family: Montserrat, sans-serif;
-}
-
-.addBook__input::placeholder {
-  font-family: Montserrat, sans-serif;
-  color: #c4c4c4;
-}
-
-.addBook__author {
-  width: 19.813rem;
-  height: 2.813rem;
-  margin: 1.188rem 2.125rem 0;
+  margin: 1.188rem 2.125rem 3rem 0;
   padding: 0.375rem 0.938rem 0.563rem 1rem;
   border-radius: 4px;
   border: solid 1px #e8e8e8;
   background-color: #fff;
 }
 
+.addBook__input::placeholder {
+  color: #c4c4c4;
+}
+
 .addBook__btn {
-  width: 16rem;
+  width: 11rem;
   height: 2.813rem;
   margin: 1.188rem 0 0 2.125rem;
   padding: 0.801rem 1.188rem 0.886rem 1.375rem;
@@ -73,7 +64,10 @@
 }
 
 .select_category {
+  width: 10.8rem;
   height: 2.813rem;
-  margin: 1.188rem;
-  border: #d3d3d3 1px solid;
+  margin: 1.188rem 0;
+  border-radius: 4px;
+  color: #cac8c8;
+  border: #e8e8e8 1px solid;
 }
