@@ -87,3 +87,15 @@
   color: #fff;
   cursor: pointer;
 }
+
+.update__btn:hover {
+  background-color: #3153ec;
+  border: #2f38bd 1px solid;
+}
+
+.divider__progress {
+  width: 0.125rem;
+  height: 4.375rem;
+  margin: 1.125rem 3.688rem 0 4.938rem;
+  background-color: #e8e8e8;
+}

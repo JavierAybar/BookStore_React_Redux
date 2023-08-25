@@ -8,7 +8,9 @@ const BooksButtons = ({ id }) => {
   return (
     <div className="action__buttons">
       <button className="act__btn" type="button">Comments</button>
+      <div className="divider__btn" />
       <button className="act__btn" type="button" onClick={() => dispatch(deleteBook(id))}>Remove</button>
+      <div className="divider__btn" />
       <button className="act__btn" type="button">Edit</button>
     </div>
   );

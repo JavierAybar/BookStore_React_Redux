@@ -12,6 +12,7 @@ function ProgressContainer() {
         <p className="stats__percent">66%</p>
         <p className="stats__completed">completed</p>
       </div>
+      <div className="divider__progress" />
       <div className="current__chapter-container">
         <div>
           <p className="current__chapter-title">Current Chapter</p>

@@ -9,3 +9,14 @@
   color: #4386bf;
   cursor: pointer;
 }
+
+.divider__btn {
+  width: 0.125rem;
+  height: 1.5rem;
+  background-color: #e8e8e8;
+  margin: 0 1rem;
+}
+
+.action__buttons {
+  display: flex;
+}
